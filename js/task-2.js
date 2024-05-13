@@ -17,6 +17,8 @@ class Storage {
   }
 }
 
+console.log('TASK-2');
+
 const storage = new Storage(['Nanitoids', 'Prolonger', 'Antigravitator']);
 console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]
 
